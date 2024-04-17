@@ -42,3 +42,21 @@ for (let idx = 0; idx <= 10; idx++) {
       break;
   }
 }
+
+function showMessage() {
+  alert("Hello, Everyone");
+}
+
+let sum = (a, b) => a + b;
+alert(sum("Apr", " Morning"));
+alert(sum(100, 900));
+
+let square = (n) => n ** 2;
+alert("10^2 = " + square(10));
+
+let logAndReturn = (nickname, age) => {
+  console.log(nickname + " is " + age + " years old");
+  return nickname + ": " + age;
+};
+
+alert(logAndReturn("Alex", 28));
